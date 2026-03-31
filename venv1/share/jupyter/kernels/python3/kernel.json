@@ -1,7 +1,6 @@
 {
  "argv": [
-  "/Users/shinchan/Desktop/Complete Data Science/venv1/bin/python",
-  "-Xfrozen_modules=off",
+  "python",
   "-m",
   "ipykernel_launcher",
   "-f",
@@ -11,5 +10,6 @@
  "language": "python",
  "metadata": {
   "debugger": true
- }
+ },
+ "kernel_protocol_version": "5.5"
 }
