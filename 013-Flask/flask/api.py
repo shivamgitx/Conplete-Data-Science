@@ -72,7 +72,7 @@ def update_item(item_id):
 @app.route('/items/<int:item_id>', methods=['DELETE'])
 def delete_item(item_id):
 
-    global items
+    global items  #it helps to modify the global variable``
 
     item = next((item for item in items if item['id'] == item_id), None)
 
@@ -87,4 +87,3 @@ def delete_item(item_id):
 if __name__ == '__main__':
     app.run(debug=True)
 
-    # http://127.0.0.1:5000
